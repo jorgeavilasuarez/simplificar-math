@@ -1,0 +1,89 @@
+/* 
+    Document   : style
+    Created on : 17/08/2014, 10:02:32 AM
+    Author     : jorge
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+body{
+    background-color: white;
+    margin: 0;
+
+}
+section{
+    border-style: solid;
+    border-width: 1px;
+    padding:10px;
+    border-color: gray;
+    margin: 4px;
+}
+
+ul{
+    list-style: none;                
+}
+aside , p {
+    display: inline;                
+}
+table{
+    border-collapse: collapse;
+
+
+}
+
+.pack-end {                
+    color: #1a0dab;
+    padding-right: 14px;
+}
+
+.lineVerti {
+    margin-right: 15px;                
+    border-left-color: gray;
+    border-left-style: solid;
+    padding-left: 12px;
+    border-left-width: 1px;
+    color: #006621;
+}
+
+#pt-main{
+    background-color: whitesmoke;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: 0;
+    position: fixed;
+    width: 100%;    
+    top: 0;
+    z-index: 1;
+}
+#content{
+    margin-top: 79px;
+    position: relative;
+
+}
+
+
+#numeros{    
+    width: 50%;
+    height: 35px;   
+    font: 16px arial,sans-serif;
+    border-width: 1px;
+    margin: 6px;
+}
+
+*{    
+    font: 20px arial,sans-serif;
+}
+#btncalcular{  
+    height: 40px;   
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);    
+    background: linear-gradient(top,#4387fd,#4683ea);
+    background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
+    border-style: none;
+    color: white;
+
+}

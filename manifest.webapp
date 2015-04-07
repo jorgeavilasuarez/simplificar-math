@@ -1,0 +1,15 @@
+{
+  "name": "Simplificar Math",
+  "description": "Simplicador de numero",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/static/images/app_icon_128.png",
+    "60": "/static/images/app_icon_60.png"
+  },
+  "version": "1.2",
+  "developer": {
+    "name": "Asikersoft",
+    "url": "http://asikersoft.com"
+  },
+  "default_locale": "en"
+}
